@@ -1,0 +1,81 @@
+user_id,full_name,email,phone_number,role,status,created_at
+1,Волков Олег,volkovoleg1@outlook.com,88932528809,external,blocked,2024-05-18 22:24:49
+2,Михайлова Полина,mihaylovapol2@outlook.com,83039117182,teacher,inactive,2023-07-19 19:46:50
+3,Фролов Никита Константинович,frolovnikita3@inbox.ru,+73834657871,student,active,2024-01-21 11:35:28
+4,Андреева Анна Дмитриевна,andreevaanna4@inbox.ru,+71031051834,external,inactive,2025-11-05 14:17:57
+5,Жукова Наталья,zhukovanatal5@inbox.ru,+73763116566,external,active,2024-12-26 20:56:29
+6,Кузнецов Виктор,kuznetsovvik6@list.ru,+76513338726,teacher,active,2023-10-13 09:55:47
+7,Егорова Елена Константиновна,egorovaelena7@outlook.com,+70801326773,student,inactive,2024-09-15 08:51:56
+8,Морозов Антон Павлович,morozovanton8@mail.ru,87468723430,external,active,2025-06-19 02:24:22
+9,Кузнецов Степан Иванович,kuznetsovste9@inbox.ru,+78208121913,teacher,active,2024-09-19 14:50:37
+10,Комарова Алина Ивановна,komarovaalin10@inbox.ru,+79985435346,external,blocked,2023-07-23 16:29:45
+11,Николаев Тимофей Романович,nikolaevtimo11@yandex.ru,+79911838425,student,active,2023-04-18 05:43:33
+12,Захаров Владимир Константинович,zaharovvladi12@inbox.ru,89808412411,worker,blocked,2025-05-09 18:40:20
+13,Степанова Нина Владимировна,stepanovanin13@gmail.com,84874016400,teacher,active,2024-06-02 12:53:20
+14,Павлов Никита,pavlovnikita14@inbox.ru,88011280598,external,active,2023-08-19 10:20:11
+15,Смирнова Виктория Романовна,smirnovavikt15@outlook.com,+75331586923,external,active,2023-09-10 19:30:17
+16,Волков Кирилл Юрьевич,volkovkirill16@mail.ru,86342160733,teacher,active,2024-12-16 10:20:54
+17,Семенова Алина Дмитриевна,semenovaalin17@bk.ru,+71458685014,student,active,2023-10-05 18:29:26
+18,Павлов Алексей Павлович,pavlovalekse18@mail.ru,85698169340,teacher,active,2024-11-08 18:24:09
+19,Жукова Ангелина,zhukovaangel19@list.ru,83561595148,admin,inactive,2024-04-25 19:58:04
+20,Орлов Антон,orlovanton20@inbox.ru,+76629946804,student,inactive,2024-03-22 01:55:07
+21,Беляева Нина,belyaevanina21@bk.ru,+73872148951,worker,active,2024-01-01 05:32:09
+22,Семенов Егор Иванович,semenovegor22@gmail.com,89176936763,teacher,blocked,2023-08-18 14:51:30
+23,Иванов Борис,ivanovboris23@yandex.ru,83287083172,student,active,2024-12-23 04:09:19
+24,Фролов Юрий Романович,frolovyuriy24@bk.ru,88687277434,worker,active,2025-03-21 04:27:56
+25,Егорова Дарья Юрьевна,egorovadarya25@mail.ru,+75581223623,student,active,2023-04-11 03:37:30
+26,Андреева Марина Ивановна,andreevamari26@gmail.com,86909670546,student,active,2024-10-13 07:14:44
+27,Жукова Нина,zhukovanina27@bk.ru,+76706562729,external,blocked,2025-04-10 02:34:20
+28,Соловьева Юлия Ивановна,solovevayuli28@yandex.ru,82720465375,external,active,2024-06-08 15:55:56
+29,Зайцев Сергей,zaytsevserge29@outlook.com,+71708053100,external,blocked,2024-01-20 12:23:23
+30,Петрова Нина Алексеевна,petrovanina30@bk.ru,89374529912,teacher,blocked,2024-04-28 13:22:17
+31,Петрова Виктория Павловна,petrovavikto31@bk.ru,83193149190,external,inactive,2024-06-23 17:41:40
+32,Захарова Елена Владимировна,zaharovaelen32@yandex.ru,87165726284,student,inactive,2025-08-15 03:52:36
+33,Жуков Борис Павлович,zhukovboris33@outlook.com,84531473799,worker,blocked,2025-11-04 08:52:18
+34,Петрова Вероника,petrovaveron34@gmail.com,+75454948083,student,active,2023-05-14 08:52:57
+35,Борисова Вероника Дмитриевна,borisovavero35@list.ru,+77701436349,student,active,2024-07-27 15:04:46
+36,Максимова Полина Юрьевна,maksimovapol36@inbox.ru,+77444313518,external,inactive,2025-12-08 12:09:44
+37,Лебедева Ева Юрьевна,lebedevaeva37@inbox.ru,88941343524,student,active,2023-01-23 08:29:21
+38,Новиков Сергей Иванович,novikovserge38@inbox.ru,+72710947775,external,blocked,2023-10-14 18:34:32
+39,Павлов Роман Петрович,pavlovroman39@bk.ru,+79022941318,student,active,2024-10-08 21:05:31
+40,Герасимов Михаил,gerasimovmih40@bk.ru,+77496499091,student,active,2023-11-20 03:53:40
+41,Павлов Виктор Дмитриевич,pavlovviktor41@gmail.com,+72067974034,student,inactive,2024-03-15 13:30:17
+42,Романов Дмитрий,romanovdmitr42@mail.ru,89361832421,teacher,inactive,2023-04-04 00:28:02
+43,Николаева Нина,nikolaevanin43@inbox.ru,87174648877,admin,blocked,2023-05-06 08:05:22
+44,Яковлев Степан Сергеевич,yakovlevstep44@yandex.ru,+79904902787,student,active,2024-03-08 11:25:43
+45,Беляева Анастасия,belyaevaanas45@bk.ru,87565512567,teacher,inactive,2024-03-24 02:32:17
+46,Соловьев Борис Ильич,solovevboris46@yandex.ru,+75168087603,student,blocked,2025-03-16 17:49:17
+47,Сергеева Валерия Ивановна,sergeevavale47@gmail.com,+72477109324,worker,active,2025-05-06 01:46:00
+48,Борисова Елена Константиновна,borisovaelen48@yandex.ru,+71274846773,teacher,active,2024-12-10 23:14:02
+49,Зайцева Екатерина,zaytsevaekat49@inbox.ru,82146584044,student,blocked,2025-07-01 03:37:27
+50,Сергеев Артем Ильич,sergeevartem50@mail.ru,+78675339636,external,active,2023-03-10 04:17:21
+51,Воробьева Диана,vorobevadian51@bk.ru,+72702895171,student,active,2025-03-28 09:52:39
+52,Иванов Степан Константинович,ivanovstepan52@list.ru,81745961586,external,blocked,2024-05-07 06:59:00
+53,Сергеев Глеб Петрович,sergeevgleb53@gmail.com,84316117240,admin,inactive,2023-03-13 19:40:03
+54,Кузнецова Виктория Павловна,kuznetsovavi54@gmail.com,+76922219693,external,active,2025-02-12 11:22:47
+55,Федоров Михаил Сергеевич,fedorovmihai55@bk.ru,+70748217594,admin,blocked,2025-09-19 22:21:40
+56,Павлов Тимофей,pavlovtimofe56@gmail.com,87136959440,admin,blocked,2025-10-19 21:35:10
+57,Иванова Юлия,ivanovayuliy57@outlook.com,80974395339,student,active,2024-01-25 17:02:39
+58,Новиков Даниил Олегович,novikovdanii58@list.ru,+77095214562,external,blocked,2023-11-09 07:10:21
+59,Жукова Полина Сергеевна,zhukovapolin59@outlook.com,+77451712368,external,inactive,2024-07-22 14:04:56
+60,Соловьева Анна Петровна,solovevaanna60@bk.ru,+74965137098,external,inactive,2024-05-24 21:57:37
+61,Семенов Даниил Константинович,semenovdanii61@bk.ru,84612004711,external,active,2024-01-01 02:58:46
+62,Новиков Антон Олегович,novikovanton62@list.ru,88692617964,student,inactive,2023-02-21 04:45:05
+63,Лебедев Тимофей Дмитриевич,lebedevtimof63@outlook.com,+75850643171,admin,inactive,2025-10-26 22:48:34
+64,Дмитриева Анна Владимировна,dmitrievaann64@gmail.com,89318393352,worker,active,2025-07-15 04:48:21
+65,Федорова Наталья Романовна,fedorovanata65@gmail.com,+70205395024,worker,active,2023-03-23 18:34:37
+66,Борисова Людмила Петровна,borisovalyud66@bk.ru,+75891783908,external,blocked,2024-04-13 22:35:37
+67,Петрова Мария,petrovamariy67@outlook.com,+71771159212,student,inactive,2024-03-03 14:20:22
+68,Беляев Глеб,belyaevgleb68@bk.ru,88478961183,worker,active,2024-10-30 11:10:10
+69,Семенова Анастасия Ильинична,semenovaanas69@bk.ru,+71565452711,admin,active,2023-05-13 23:36:50
+70,Соколова Ева,sokolovaeva70@outlook.com,+70988516560,student,active,2024-03-23 04:36:05
+71,Макаров Максим Дмитриевич,makarovmaksi71@gmail.com,83158514936,teacher,active,2025-05-21 19:19:01
+72,Герасимов Юрий,gerasimovyur72@inbox.ru,+74024455022,student,active,2025-05-30 02:58:50
+73,Попов Артем,popovartem73@yandex.ru,+78366752545,worker,active,2025-06-01 02:25:17
+74,Кузнецов Артем Максимович,kuznetsovart74@yandex.ru,84767976438,student,blocked,2023-06-27 04:25:27
+75,Михайлова Виктория,mihaylovavik75@inbox.ru,+74036900343,student,active,2023-08-02 13:29:03
+76,Степанов Павел Ильич,stepanovpave76@list.ru,+72683885160,student,inactive,2024-11-09 00:26:43
+77,Попова София Максимовна,popovasofiya77@bk.ru,86416052975,external,inactive,2023-05-18 06:43:12
+78,Соколова Алина Павловна,sokolovaalin78@inbox.ru,+74535218188,external,active,2023-10-29 14:15:14
+79,Макаров Илья,makarovilya79@outlook.com,82312432921,student,active,2023-10-03 13:29:10
+80,Сергеев Тимофей,sergeevtimof80@outlook.com,+79955271774,student,blocked,2024-03-03 01:34:35
