@@ -76,19 +76,23 @@ END;
 $$;
 
 
--- 3. Процедура создания бронирования.
-CREATE OR REPLACE PROCEDURE music_studio.create_booking(
+-- 3. Функция создания бронирования.
+-- Проверяет пользователя, доступность студии,
+-- автоматически считает total_cost и возвращает booking_id новой записи.
+CREATE OR REPLACE FUNCTION music_studio.create_booking(
     p_user_id INT,
     p_studio_id INT,
     p_start_time TIMESTAMP,
     p_end_time TIMESTAMP,
     p_purpose VARCHAR(100)
 )
+RETURNS INT
 LANGUAGE plpgsql
 AS $$
 DECLARE
     v_user_status VARCHAR(20);
     v_total_cost NUMERIC(12, 2);
+    v_booking_id INT;
 BEGIN
     SELECT status
     INTO v_user_status
@@ -134,6 +138,9 @@ BEGIN
         p_purpose,
         'created',
         v_total_cost
-    );
+    )
+    RETURNING booking_id INTO v_booking_id;
+
+    RETURN v_booking_id;
 END;
 $$;
