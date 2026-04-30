@@ -77,8 +77,6 @@ $$;
 
 
 -- 3. Функция создания бронирования.
--- Проверяет пользователя, доступность студии,
--- автоматически считает total_cost и возвращает booking_id новой записи.
 CREATE OR REPLACE FUNCTION music_studio.create_booking(
     p_user_id INT,
     p_studio_id INT,
@@ -90,54 +88,12 @@ RETURNS INT
 LANGUAGE plpgsql
 AS $$
 DECLARE
-    v_user_status VARCHAR(20);
-    v_total_cost NUMERIC(12, 2);
     v_booking_id INT;
 BEGIN
-    SELECT status
-    INTO v_user_status
-    FROM music_studio.users
-    WHERE user_id = p_user_id;
-
-    IF NOT FOUND THEN
-        RAISE EXCEPTION 'User with id % does not exist', p_user_id;
-    END IF;
-
-    IF v_user_status <> 'active' THEN
-        RAISE EXCEPTION 'User with id % is not active', p_user_id;
-    END IF;
-
-    IF NOT music_studio.is_studio_available(
-        p_studio_id,
-        p_start_time,
-        p_end_time
-    ) THEN
-        RAISE EXCEPTION 'Studio with id % is not available for this time interval', p_studio_id;
-    END IF;
-
-    v_total_cost := music_studio.calculate_booking_cost(
-        p_studio_id,
-        p_start_time,
-        p_end_time
-    );
-
     INSERT INTO music_studio.bookings (
-        user_id,
-        studio_id,
-        start_time,
-        end_time,
-        purpose,
-        status,
-        total_cost
-    )
-    VALUES (
-        p_user_id,
-        p_studio_id,
-        p_start_time,
-        p_end_time,
-        p_purpose,
-        'created',
-        v_total_cost
+        user_id, studio_id, start_time, end_time, purpose, status, total_cost
+    ) VALUES (
+        p_user_id, p_studio_id, p_start_time, p_end_time, p_purpose, 'created', 0
     )
     RETURNING booking_id INTO v_booking_id;
 
