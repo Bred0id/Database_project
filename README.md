@@ -643,17 +643,3 @@ python -m pytest tests -v
 - автоматическое изменение статуса бронирования после платежа.
 
 ---
-
-## 11. Порядок полной проверки проекта
-
-Рекомендуемый порядок проверки:
-
-1. Выполнить `base_part/music_studio_create.sql`.
-2. Выполнить `base_part/music_studio_fill.sql`.
-3. Выполнить `base_part/music_studio_selects.sql`.
-4. Выполнить `advanced_part/indexes.sql`.
-5. Выполнить `advanced_part/views.sql`.
-6. Выполнить `advanced_part/functions.sql`.
-7. Выполнить `advanced_part/triggers.sql`.
-8. Выполнить ручные проверки из раздела 8.
-9. Запустить pytest-тесты из раздела 9.
