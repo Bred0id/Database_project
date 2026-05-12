@@ -1,4 +1,4 @@
-maintenance_id,responsible_user_id,equipment_id,maintenance_date,maintenance_type,maintenance_cost,description
+﻿maintenance_id,responsible_user_id,equipment_id,maintenance_date,maintenance_type,maintenance_cost,description
 1,19,5,2025-04-22,Мелкий ремонт,14723.08,"Проведена диагностика, выполнена проверка работоспособности узлов"
 2,33,5,2024-10-30,Настройка,7398.43,Проведены работы по устранению посторонних шумов и дребезга
 3,33,13,2023-02-21,Чистка,10374.66,

@@ -1,4 +1,4 @@
-studio_id,studio_name,capacity,description,hourly_cost,status
+﻿studio_id,studio_name,capacity,description,hourly_cost,status
 1,Класс камерного ансамбля,22,Учебное музыкальное помещение университета,2081.76,maintenance
 2,Вокальная студия №1,7,"Класс для постановки голоса, распевок и индивидуальных уроков вокала",857.22,available
 3,Вокальная студия №2,11,"Класс для постановки голоса, распевок и индивидуальных уроков вокала",1001.09,occupied

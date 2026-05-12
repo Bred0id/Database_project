@@ -1,4 +1,4 @@
-user_id,full_name,email,phone_number,role,status,created_at
+﻿user_id,full_name,email,phone_number,role,status,created_at
 1,Волков Олег,volkovoleg1@outlook.com,88932528809,external,blocked,2024-05-18 22:24:49
 2,Михайлова Полина,mihaylovapol2@outlook.com,83039117182,teacher,inactive,2023-07-19 19:46:50
 3,Фролов Никита Константинович,frolovnikita3@inbox.ru,+73834657871,student,active,2024-01-21 11:35:28
